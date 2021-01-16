@@ -10,7 +10,8 @@ class ProgressBar extends Component {
 
         return (
             <div>
-                <progress value={completed.length} max={this.props.tasks.length}></progress>
+                <progress value={completed.length} max={this.props.tasks.length}>
+                </progress>
             </div>
         );
     }
